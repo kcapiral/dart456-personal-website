@@ -30,6 +30,15 @@ html, body {
   animation: color-change 12s infinite alternate;
 }
 
+#intro-container {
+	font-size: 100%:
+	-webkit-animation: color-change 12s infinite alternate;
+	-moz-animation: color-change 12s infinite alternate;
+	-o-animation: color-change 12s infinite alternate;
+	-ms-animation: color-change 12s infinite alternate;
+	animation: color-change 12s infinite alternate;
+}
+
 @-webkit-keyframes color-change {
   0% { color: #1A06FE; }
   25% { color: #FFADFE; }
